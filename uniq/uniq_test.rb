@@ -8,6 +8,7 @@ module Enumerable
 end
 
 require_relative 'uniq'
+require 'minitest/autorun'
 
 class UniqTest < MiniTest::Test
   def test_without_block
